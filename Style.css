@@ -1,0 +1,223 @@
+.Home_body
+{
+  background-image: url(images/body-background.jpg);
+  width: 1400px;
+}
+.Page_title
+{
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Times New Roman';
+  color: #338FC2;
+  text-align: center;
+}
+.Pages_list
+{
+  font-size: 20px;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: gray;
+  padding: 5px;
+}
+.Pages_list a
+{
+  text-decoration: none;
+  color: gray;
+  font-weight: bolder;
+}
+.Table_caption
+{
+  font-size: 25px;
+  text-align: center;
+  color: #338FC2;
+  font-family: 'Times New Roman';
+  font-style: italic;
+}
+.STD_names
+{
+  margin: auto;
+  align-content: center;
+}
+.STD_names td
+{
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #338FC2;
+  border-radius: 50px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  color: #338FC2;
+}
+.Notes , .link
+{
+  text-decoration: none;
+  color: #338FC2;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman';
+  font-style: italic;
+}
+/*///////////////*/
+.AboutUs_body
+{
+  background-image: url(images/body-background.jpg);
+  width: 1400px;
+}
+.Welcome_message
+{
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-size: 30px;
+  color: #338FC2;
+  margin-left: 30px;
+}
+.About_site
+{
+  margin-left: 20px;
+  font-size: 20px;
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+}
+.About_site b i
+{
+  font-size: 25px;
+  font-family: 'Times New Roman';
+  color: #338FC2;
+}
+.Contact_info
+{
+  background-color: white;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: #338FC2;
+  border-radius: 20px;
+  color: gray;
+  font-size: 17px;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+}
+.Apps_body
+{
+  background-image: url(images/body-background.jpg);
+  width: 1400px;
+}
+.Apps_table
+{
+  margin: auto;
+  text-align: center;
+  border-color: #338FC2;
+}
+.Apps_table th
+{
+  border-style: solid;
+  width: 120px;
+  border-color: #338FC2;
+  color: #338FC2;
+  background-color: white;
+}
+.Apps_table td
+{
+  border-style: solid;
+  width: 120px;
+  border-color: #338FC2;
+  color: #338FC2;
+  background-color: white;
+}
+.details
+{
+  display: none;
+}
+.details div
+{
+  text-align: left;
+}
+.marge 
+{
+  display: flex;
+  gap: 150px;
+}
+.app_logo
+{
+  width: 100px;
+}
+.app_vid
+{
+  width: 200px;
+  height: 100px;
+}
+.Add_body
+{
+  background-image: url(images/body-background.jpg);
+  width: 1400px;
+}
+.Add_form
+{
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border-style: dotted;
+  border-color: #338FC2;
+  border-radius: 50px;
+  border-width: 5px;
+  color: #338FC2;
+}
+.text,select
+{
+  border-color: #338FC2;
+  border-radius: 10px;
+  text-align: center;
+  height: 25px;
+  color: gray;
+}
+textarea
+{
+  border-color: #338FC2;
+  border-radius: 10px;
+  text-align: center;
+}
+.add_files
+{
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  width: 180px;
+  font-size: 15px;
+  background-color: #338FC2;
+  color: white;
+  border-radius: 30px;
+}
+.btn
+{
+  border-color: #338FC2;
+  background-color: #338FC2;
+  border-radius: 10px;
+  text-align: center;
+  height: 35px;
+  width: 70px;
+  color: white;
+  font-weight: bold;
+}
+.add
+{
+  border-style: solid;
+  margin-left: 870px;
+  background-color: #338FC2;
+  border-color: #338FC2;
+  font-size: 20px;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 20px;
+}

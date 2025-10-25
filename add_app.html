@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Add App - Tech+</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="myFunction.js"></script>
+  <link rel="Stylesheet" href="Style.css">
+</head>
+
+<body class="Add_body">
+  <h1 class="Page_title">Technology Plus</h1>
+  <div class="Pages_list">
+    <a href="home.html">Home</a>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    <a href="AboutUs.html">About Us</a>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    <a href="apps.html">Apps</a>
+  </div>
+  <br/>
+  <form class="Add_form">
+    <p class="Form_caption">--- Add info for new app ---</p>
+    <input class="text" type="text" name="app_name" placeholder="Enter app name" pattern="^[a-zA-Z]+$" title="Please enter only letters, no spaces or numbers."/>
+    <br/>
+    <br/>
+    <input class="text" type="text" name="company" placeholder="Enter company" pattern="^[a-zA-Z0-9 ]+$" title="Please enter only letters and numbers."/>
+    <br/>
+    <br/>
+    <input class="text" type="url" name="website" placeholder="https://example.com"/>
+    <br/>
+    <br/>
+    <input type="radio" name="radio" value="Free"/> Free &nbsp &nbsp 
+    <input type="radio" name="radio" value="Paid"/> Paid
+    <br/>
+    <br/>
+    <select class="text" name="usage">
+      <option hidden="hidden">Enter usage ...</option>
+      <option>Education</option>
+      <option>Make images</option>
+      <option>Business</option>
+      <option>Write</option>
+      <option>Health</option>
+    </select>
+    <br/>
+    <br/>
+    <textarea name="description" rows="4" cols="30" placeholder="Enter a brief explanation"></textarea>
+    <br/>
+    <br/>
+    <p class="add_files">
+      Add logo : <input class="file" type="file" name="logo" accept="image/*"/>
+      <br/>
+      <br/>
+      Add video : <input class="file" type="file" name="logo" accept="audio/*,video/*"/>
+    <p/>
+    <br/>
+    <br/>
+    <input class="btn" type="reset" value="Reset" /> &nbsp &nbsp
+    <input class="btn" type="submit" value="Send" />
+  </form>
+</body>
+
+</html>
